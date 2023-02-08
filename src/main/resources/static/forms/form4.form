@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "label": "Data wizyty",
+      "type": "textfield",
+      "id": "Field_0b8e4i9",
+      "key": "visitDate",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0fetu4b",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "schemaVersion": 6
+}

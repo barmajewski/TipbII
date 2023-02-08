@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "label": "Imię pacjenta",
+      "type": "textfield",
+      "id": "Field_1qgeeee",
+      "key": "patientFirstName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nazwisko pacjenta",
+      "type": "textfield",
+      "id": "Field_1n8f569",
+      "key": "patientLastName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Posiadana dolegliwość",
+      "type": "textfield",
+      "id": "Field_0mln5fw",
+      "key": "illness",
+      "description": "Wprowadz \"Noga\" lub \"Inne\"",
+      "validate": {
+        "required": true,
+        "pattern": "Inne|Noga"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0fetu4b",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "schemaVersion": 6
+}

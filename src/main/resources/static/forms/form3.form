@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "label": "Nazwa leku",
+      "type": "textfield",
+      "id": "Field_1qgeeee",
+      "key": "medicine",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Email pacjenta",
+      "type": "textfield",
+      "id": "Field_0mln5fw",
+      "key": "email",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0fetu4b",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "schemaVersion": 6
+}

@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "label": "Czy posiada ubezpieczenie",
+      "type": "textfield",
+      "id": "Field_0yx7hyh",
+      "key": "insurence",
+      "validate": {
+        "required": true,
+        "pattern": "Tak|Nie"
+      },
+      "description": "*Tak lub Nie"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0fetu4b",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "schemaVersion": 6
+}
